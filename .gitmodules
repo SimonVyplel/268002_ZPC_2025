@@ -1,0 +1,6 @@
+[submodule "hugo-theme-hello-friend-ng"]
+	path = hugo-theme-hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng
+[submodule "gohugo-theme-ananke"]
+	path = gohugo-theme-ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke

@@ -1,0 +1,63 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Ahoj</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on Ahoj</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>cz-cs</language>
+        <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>O mě</title>
+            <link>http://localhost:1313/posts/my-first-post/</link>
+            <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+            
+            <guid>http://localhost:1313/posts/my-first-post/</guid>
+            <description>&lt;h1 id=&#34;ahoj&#34;&gt;Ahoj&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;wow&#34;&gt;Wow&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;kus pus mus sdsdsssd&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;ahoj&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Já jsem tabulka&lt;/th&gt;
+          &lt;th&gt;Souhlasím&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nesouhlasím&lt;/td&gt;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/images/1.jpg&#34; alt=&#34;Ratlík&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+            <content type="html"><![CDATA[<h1 id="ahoj">Ahoj</h1>
+<blockquote>
+<h1 id="wow">Wow</h1>
+<ul>
+<li>kus pus mus sdsdsssd</li>
+</ul></blockquote>
+<p>ahoj</p>
+<table>
+  <thead>
+      <tr>
+          <th>Já jsem tabulka</th>
+          <th>Souhlasím</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Nesouhlasím</td>
+          <td><img src="/images/1.jpg" alt="Ratlík"></td>
+      </tr>
+  </tbody>
+</table>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,24 @@
+baseURL = 'https://example.org/'
+languageCode = 'cz-cs'
+
+pluralizeListTitles = false
+
+title = 'Ahoj'
+theme= 'hello-friend'
+homeSubtitle = "A simple and beautiful blog"
+
+[params.logo]
+    logoText = "ZPC"
+    logoHomeLink = "/" 
+
+[menu]  
+    [[menu.main]]
+        identifier = "ome"
+        name       = "O mě"
+        url        = "/ome"
+
+    [[menu.main]]
+        identifier = "blog"
+        name       = "Blog"
+        url        = "/Projekty"
+        weight     = 2
