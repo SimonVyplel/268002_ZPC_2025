@@ -6,6 +6,7 @@ pluralizeListTitles = false
 title = 'Chytrý dávkovač pilulek'
 theme= 'hello-friend'
 homeSubtitle = "A simple and beautiful blog"
+canonifyURLs = true
 
 [params.logo]
     logoText = "ZPC"
