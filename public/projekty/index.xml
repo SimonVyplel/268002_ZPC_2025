@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projekty on Chytrý dávkovač pilulek</title>
-    <link>http://localhost:1313/268002_ZPC_2025/projekty/</link>
+    <link>https://simonvyplel.github.io/268002_ZPC_2025/projekty/</link>
     <description>Recent content in Projekty on Chytrý dávkovač pilulek</description>
     <generator>Hugo</generator>
     <language>cs</language>
     <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/268002_ZPC_2025/projekty/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://simonvyplel.github.io/268002_ZPC_2025/projekty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Úkol č. 2</title>
-      <link>http://localhost:1313/268002_ZPC_2025/projekty/ukol-%C4%8D2/</link>
+      <link>https://simonvyplel.github.io/268002_ZPC_2025/projekty/ukol-%C4%8D2/</link>
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/268002_ZPC_2025/projekty/ukol-%C4%8D2/</guid>
+      <guid>https://simonvyplel.github.io/268002_ZPC_2025/projekty/ukol-%C4%8D2/</guid>
       <description>&lt;h1 id=&#34;2d-grafika-a-řezání&#34;&gt;2D grafika a řezání&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Úkol č. 1</title>
-      <link>http://localhost:1313/268002_ZPC_2025/projekty/ukol-%C4%8D1/</link>
+      <link>https://simonvyplel.github.io/268002_ZPC_2025/projekty/ukol-%C4%8D1/</link>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/268002_ZPC_2025/projekty/ukol-%C4%8D1/</guid>
+      <guid>https://simonvyplel.github.io/268002_ZPC_2025/projekty/ukol-%C4%8D1/</guid>
       <description>&lt;p&gt;Prví úkol, který jsem musel tento semestr zvládnout, bylo naprogramovat jednoduchý web v Hugu a sepsat sekci &amp;lsquo;O mě&amp;rsquo; a také vydat svou první publikaci&amp;hellip; tuto stránku. Založení webu bylo relativně bezproblémové díky příjemně připravené prezentaci. Trocha boje přišla až při formátování obrázků, ale nic co by se nedalo zvládnout a výsledkem je tento web na který se právě díváte.&lt;/p&gt;</description>
     </item>
   </channel>
