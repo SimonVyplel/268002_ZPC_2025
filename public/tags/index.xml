@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Ahoj</title>
+    <title>Tags on Chytrý dávkovač pilulek</title>
     <link>https://example.org/tags/</link>
-    <description>Recent content in Tags on Ahoj</description>
+    <description>Recent content in Tags on Chytrý dávkovač pilulek</description>
     <generator>Hugo</generator>
-    <language>cz-cs</language>
+    <language>cs</language>
     <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

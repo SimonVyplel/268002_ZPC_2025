@@ -1,9 +1,9 @@
 baseURL = 'https://example.org/'
-languageCode = 'cz-cs'
+languageCode = 'cs'
 
 pluralizeListTitles = false
 
-title = 'Ahoj'
+title = 'Chytrý dávkovač pilulek'
 theme= 'hello-friend'
 homeSubtitle = "A simple and beautiful blog"
 
@@ -22,3 +22,16 @@ homeSubtitle = "A simple and beautiful blog"
         name       = "Blog"
         url        = "/Projekty"
         weight     = 2
+
+    [[menu.main]]
+        identifier = "Projekt"
+        name       = "Projekt"
+        url        = "/Projekt"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
