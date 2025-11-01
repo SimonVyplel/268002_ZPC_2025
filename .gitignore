@@ -2,8 +2,9 @@
 /public/
 
 # Static generated/large assets
-/static/videos/
-/static/models/
+
+# Note: videos/models moved to Git LFS; don't ignore the source folders in static/
+# (keep generated public/ ignored)
 
 # Ignore platform-specific files
 desktop.ini
