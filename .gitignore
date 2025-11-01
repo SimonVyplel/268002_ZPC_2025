@@ -1,0 +1,10 @@
+# Hugo build output
+/public/
+
+# Static generated/large assets
+/static/videos/
+/static/models/
+
+# Ignore platform-specific files
+desktop.ini
+Thumbs.db
