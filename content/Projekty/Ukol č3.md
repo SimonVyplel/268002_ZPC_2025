@@ -27,13 +27,13 @@ Díly jsem následně vložil do sliceru a vygeneroval G-code pro tisk.
 Celý mechanismus jsem poté bez problémů složil a zkontroloval jeho hmotnost.
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
-  <img src="/images/3D tisk-váha.jpg" alt="váha" style="max-width:32%; height:auto;">
-  <video controls muted playsinline preload="metadata" style="max-width:32%; height:auto;" poster="/images/3D tisk-váha.jpg">
-    <source src="/videos/3D%20tisk-video%201.mp4" type="video/mp4">
+  <img src="/images/3D-tisk-váha.jpg" alt="váha" style="max-width:32%; height:auto;">
+  <video controls muted playsinline preload="metadata" style="max-width:32%; height:auto;" poster="/images/3D-tisk-váha.jpg">
+    <source src="/videos/3D-tisk-video-1.mp4" type="video/mp4">
     Váš prohlížeč nepodporuje video tag.
   </video>
-  <video controls muted playsinline preload="metadata" style="max-width:32%; height:auto;" poster="/images/3D tisk-váha.jpg">
-    <source src="/videos/3D%20tisk-video%202.mp4" type="video/mp4">
+  <video controls muted playsinline preload="metadata" style="max-width:32%; height:auto;" poster="/images/3D-tisk-váha.jpg">
+    <source src="/videos/3D-tisk-video-2.mp4" type="video/mp4">
     Váš prohlížeč nepodporuje video tag.
   </video>
 </div> 
