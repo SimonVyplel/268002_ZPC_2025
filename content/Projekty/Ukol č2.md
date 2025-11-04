@@ -17,7 +17,7 @@ Za úkol jsme pak dostali si vymyslet a vyřezat nějakou do sebe zapadající s
 Šachové figurky jsou pak nadesignované tak, aby se do sebe zaklesly dva hlavní profily a pak do spodu podstava, která celou figurku drží ještě lépe pohromadě.
 
 <div style="display:flex; justify-content:center; gap:10px;">
-  <img src="/images/Figurka.png" alt="figurka" height="300">
+  <img src="/images/figurka.png" alt="figurka" height="300">
 </div>
 
 Rozvržení řezu jsem udělal co nejkopmkatnější aby se snížíl traveltime při gravírování.
