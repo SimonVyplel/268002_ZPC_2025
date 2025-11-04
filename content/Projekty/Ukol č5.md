@@ -30,13 +30,13 @@ pre {
 </style>
 
 
-V tomto týdnu jsme řešili práci s mikrokontrolerem, zapojování jednoduchých obvodů a dostali jsme zadaný mmminiprojekt, v rámci kterého máme navrhnout vlastní obvod. Já jsem se rozhodl udělat unikátní ovládání světel za pomocí joysticku. Za úko jsem si dal udělat obvod který na základě vstupů ovládá 3 led diody. Při zmáčknutí a držení tlačítka joystiku začne ovládání led diod. Při pohybu z leva do prava se mění počet diod který svítí a při pohybu nahoru a dolů perioda se kterou blikají. Ovod jsem zapojil následovně:
+V tomto týdnu jsme se zabývali prací s mikrokontrolérem, zapojováním jednoduchých obvodů a dostali jsme zadaný miniprojekt, v rámci kterého máme navrhnout vlastní obvod. Já jsem se rozhodl vytvořit unikátní ovládání světel pomocí joysticku. Jako úkol jsem si stanovil vytvořit obvod, který na základě vstupů ovládá tři LED diody. Po stisknutí a držení tlačítka joysticku začne ovládání LED diod. Při pohybu zleva doprava se mění počet diod, které svítí, a při pohybu nahoru a dolů se mění perioda, s jakou blikají. Obvod jsem zapojil následovně:
 
 <div style="display:flex; justify-content:center; gap:10px;">
   <img src="/images/obvod.png" alt="obvod" >
 </div> 
 
-Začal sem tím že sem si nadeklaroval proměné a k nim piny, případně hodnoty.
+Co se týče programu tak jsem začal tím, že jsem si nadefinoval proměnné a k nim přiřadil piny, případně výchozí hodnoty.
 
 <pre><code class="language-cpp">
 const int buttonPin = 2;
@@ -50,7 +50,7 @@ bool ledState = false;
 unsigned long previousMillis = 0;
 </code></pre>
 
-Další v programu proběhne setup kód. V něm sem nastavil pinMode pro vstup z tlačítka. A v loopu pak výstup na ledky a rovnou do nich nahrál základní hodnotu. Na konec inicializuji serivoý výstup do konzole.
+Dále v programu probíhá část setup. V ní jsem nastavil režim pinů pomocí pinMode pro vstupy z tlačítka a výstupy na LEDky. Zároveň jsem jim přiřadil základní hodnoty. Na konci této části jsem inicializoval sériový výstup do konzole.
 
 <pre><code class="language-cpp">
 void setup() {
@@ -63,13 +63,13 @@ void setup() {
 }
 </code></pre>
 
-V rámci hlavního loopu začneme přeštením hodnot ze vstupu. Potom po podmínkou že je tlačítko stisknuité na základně přečtených vstupů updatujeme proměnou pro počet svítítích led diod a délku prodlevy mezi blikáním. 
+V rámci hlavní smyčky loop začínáme načtením hodnot ze vstupů. Poté, pod podmínkou, že je tlačítko stisknuté, na základě přečtených vstupů aktualizujeme proměnné pro počet svítících LED diod a délku prodlevy mezi blikáním.
 
-Další nastavujeme blikání diod se zadanou prodlevou. Je potřeba se vyhnout příkazu delay protože to zastaví celý program. Toho sem dosáhl porovnáváním aktuálního času který uběhl od začátku programu s hodnotou poseldního přepnutí diod. V případě že jejich rozdíl je vetší než zadaná prodleva, pak updatujeme hodnotu posledního přepnutí diod a logickou hodnotu pro stav diod překlopíme. 
+Následně nastavujeme blikání diod se zadanou prodlevou. Je potřeba se vyhnout příkazu delay(), protože ten zastaví celý program. Toho jsem dosáhl porovnáváním aktuálního času, který uplynul od začátku programu, s hodnotou posledního přepnutí diod. V případě, že je jejich rozdíl větší než zadaná prodleva, aktualizujeme hodnotu posledního přepnutí a logickou hodnotu pro stav diod překlopíme.
 
-V předposeldní části programu nastavujeme které diody mají svítit. Ve smyčce prodjeme všechny diody a pokud splňují podmínky pro svícení (stav diody=1 a číslo ledky je menší než počet svítících diod).
+V předposlední části programu určujeme, které diody mají svítit. Ve smyčce projdeme všechny diody a pokud splňují podmínky pro svícení (stav diody = 1 a číslo LEDky je menší než počet svítících diod), nastavíme je jako svítící.
 
-Na finále vypíšeme přečtené hodnoty ze vstupů a virtuální hodnoty toho jak rychle a kolik diod má svítít do konzole pro debug(při fyzickém zapojování sem měl problém se vstupy).
+Nakonec vypíšeme načtené hodnoty ze vstupů a virtuální hodnoty určující, jak rychle a kolik diod má svítit, do konzole pro ladění (při fyzickém zapojování jsem měl problém se vstupy).
 
 <pre><code class="language-cpp">
 void loop() {
